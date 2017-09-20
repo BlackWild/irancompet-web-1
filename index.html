@@ -39,8 +39,15 @@
             <h5 class="header col s12 light">به وبسابت سازمان آموزش فنی و حرفه ای کشور خوش آمدید</h5>
           </div>
           <div class="row center">
-            <a href="#start" class="btn-large waves-effect waves-light teal lighten-1">درباره ما</a>
-            <a class="btn-large waves-effect waves-light teal lighten-1">مشاهده ویدیو</a>
+            <a id="start" class="btn-large waves-effect waves-light teal lighten-1">درباره ما</a>
+            <a href="#modal1" class="btn-large waves-effect waves-light teal lighten-1 modal-trigger">مشاهده ویدیو</a>
+          </div>
+          <div id="modal1" class="modal">
+            <div class="modal-content">
+              <video id="vid" class="responsive-video" controls>
+                <source src="vid/mov.mp4" type="video/mp4">
+              </video>
+            </div>
           </div>
           <br><br>
         </div>
@@ -49,12 +56,12 @@
     </div>
 
 
-    <div id="start" class="container">
+    <div class="container">
 
       <div class="section">
         <div class="row">
           <div class="col s12 center">
-            <h2 class="header">معرفی سازمان</h4>
+            <h2 id="toStart" class="header">معرفی سازمان</h4>
               <p class="right-align light">سازمان آموزشی فنی و حرفه ای کشور با رسالت ارائه آموزش های مهارتی به جوانان جویای کار در شهر ها و روستا ها شاغلان
                 بخش های مختلف اقتصادی کشور دانشجویان و فارغ التحصیلان دانشگاه ها سربازان مددجوبان زندانها و آسیب دیدگان اجتماعی
                 باتوجه وبژه به جوانان با 31 اداره کل حدود 700 مرکز آموزشی دولتی و بیش از 11 هزار آموزشگاه آزاد فنی و حرفه
