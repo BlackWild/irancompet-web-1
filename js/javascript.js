@@ -8,8 +8,8 @@
       }, 200);
     });
     $('.modal').modal({
-      ready: function (modal, trigger) { $("#vid") },
-      complete: function () { }
+      ready: function (modal, trigger) { $("#vid").get(0).play(); },
+      complete: function () { $("#vid").get(0).pause(); }
     });
 
   });
