@@ -3,4 +3,4 @@ Single page website for IranCompet.com competition
 
 ------
 ## Waiting for results
-:D
+I didn't win!!  :((
